@@ -1723,8 +1723,8 @@ public OnPlayerKeyStateChange(playerid, KEY:newkeys, KEY:oldkeys) {
         SetPlayerCameraLookAt(playerid, g_TableData[tableid][TABLE_X], g_TableData[tableid][TABLE_Y], g_TableData[tableid][TABLE_Z] + 0.4488);
         TogglePlayerControllable(playerid, false);
 
-        // Position selection ring
-        UpdateSelectionRing(tableid);
+        // Hide selection ring during shuffling
+        SetDynamicObjectPos(g_TableData[tableid][RING_OBJECT], g_TableData[tableid][TABLE_X], g_TableData[tableid][TABLE_Y], g_TableData[tableid][TABLE_Z] - 50.0);
 
         SetTimerEx("ContinueShuffling", 1000, false, "i", tableid);
     }
