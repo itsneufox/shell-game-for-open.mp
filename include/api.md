@@ -6,15 +6,6 @@ This document provides instructions for integrating the Shell Game filterscript 
 
 The Shell Game is a casino-style mini-game where players bet money to guess which shell contains the ball. The game features progressive difficulty with increasing bet amounts per level and supports multiple tables simultaneously.
 
-## Features
-
-- **🎮 Multi-table support** - Up to 10 tables with independent game states
-- **💰 Flexible payment system** - Integrate with any economy system
-- **🎯 Easy table creation** - Simple API functions for table management
-- **⚡ Performance optimized** - Timer-based proximity detection
-- **🎪 Rich callbacks** - Complete game event tracking
-- **🎨 Visual feedback** - Dynamic textdraws and game messages
-
 ## Required Files
 
 - `shellgame_multi.pwn` - Main filterscript (place in filterscripts folder)
