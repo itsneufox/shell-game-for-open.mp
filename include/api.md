@@ -306,7 +306,7 @@ public OnShellGameCheckMoney(playerid, tableid, amount) {
 
 ## Examples
 
-See the included `pawnctl.pwn` gamemode for a complete implementation example with basic economy integration.
+See the included `test.pwn` gamemode for a complete implementation example with basic economy integration.
 
 ---
 
